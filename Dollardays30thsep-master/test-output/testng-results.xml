@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="52073" started-at="2020-12-06T13:33:18 CST" finished-at="2020-12-06T13:34:10 CST">
+    <groups>
+    </groups>
+    <test name="Dollar Days Test" duration-ms="52073" started-at="2020-12-06T13:33:18 CST" finished-at="2020-12-06T13:34:10 CST">
+      <class name="com.dollardays.testcases.AccOverviewTaxExemTestcase">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AccOverviewTaxExemTestcase@21a947fe]" name="setUpBrowser" is-config="true" duration-ms="6399" started-at="2020-12-06T13:33:19 CST" finished-at="2020-12-06T13:33:25 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="AccountOverviewPageEditLinkVerify(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AccOverviewTaxExemTestcase@21a947fe]" name="AccountOverviewPageEditLinkVerify" duration-ms="44176" started-at="2020-12-06T13:33:25 CST" data-provider="dd-dataprovider" finished-at="2020-12-06T13:34:09 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=ValidData, Password=c2hpa2hhMDAx, Runmode=yes, SheetName=Login, UserName=shikha00sharma@gmail.com, TCID=TC1, =}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccountOverviewPageEditLinkVerify -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AccOverviewTaxExemTestcase@21a947fe]" name="quit" is-config="true" duration-ms="331" started-at="2020-12-06T13:34:09 CST" finished-at="2020-12-06T13:34:10 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.dollardays.testcases.AccOverviewTaxExemTestcase -->
+    </test> <!-- Dollar Days Test -->
+  </suite> <!-- Suite -->
+</testng-results>
